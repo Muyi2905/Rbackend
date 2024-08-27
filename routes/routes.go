@@ -6,10 +6,10 @@ import (
 	"github.com/gorilla/mux"
 )
 
-func RegisterRoutes () *mux.Router{
-	r:= mux.NewRouter()
+func RegisterRoutes() *mux.Router {
+	r := mux.NewRouter()
 
 	routes.RegisterAuthRoutes(r)
-
+	routes.UserRoutes()
 	return r
 }

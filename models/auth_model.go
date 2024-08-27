@@ -5,12 +5,10 @@ type Register struct {
 	FirstName string `json:"firstname"`
 	LastName  string `json:"lastname"`
 	Email     string `json:"email"`
-	Password  string `json"password "`
+	Password  string `json:"password "`
 	UserName  string `json:"username"`
 }
 type Login struct {
-	Id        string `json:"id"`
-	FirstName string `json:"firstname"`
-	LastName  string `json:"lastname"`
-	Password  string `json"password "`
+	Email    string `json:"email"`
+	Password string `json:"password "`
 }
